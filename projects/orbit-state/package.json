@@ -1,6 +1,6 @@
 {
   "name": "orbit-state",
-  "version": "0.0.1",
+  "version": "1.2.0",
   "description": "Simple reactive state management for Angular",
   "author": "Afrânio Alves",
   "main": "dist/index.js",
