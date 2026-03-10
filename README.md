@@ -1,4 +1,4 @@
-# Orbit Store
+# Orbit State
 
 <p align="center">
 Simple, typed and reactive state management for Angular applications.
@@ -6,19 +6,19 @@ Simple, typed and reactive state management for Angular applications.
 
 <p align="center">
 
-<!-- ![npm](https://img.shields.io/npm/v/orbit-store) -->
+<!-- ![npm](https://img.shields.io/npm/v/orbit-state) -->
 
-![license](https://img.shields.io/npm/l/orbit-store)
-![downloads](https://img.shields.io/npm/dm/orbit-store)
+![license](https://img.shields.io/npm/l/orbit-state)
+![downloads](https://img.shields.io/npm/dm/orbit-state)
 ![angular](https://img.shields.io/badge/angular-%3E%3D16-red)
 
 </p>
 
 ---
 
-## ✨ What is Orbit Store
+## ✨ What is Orbit State
 
-**Orbit Store** is a lightweight state management library for Angular applications.
+**Orbit State** is a lightweight state management library for Angular applications.
 
 It allows you to create **typed and reactive stores** to share state between components without excessive boilerplate.
 
@@ -36,14 +36,14 @@ Internally, the library uses **RxJS**.
 # 📦 Installation
 
 ```bash
-npm install orbit-store
+npm install orbit-state
 ```
 
 ---
 
 ## 🧠 How it works
 
-The Orbit Store flow is simple:
+The Orbit State flow is simple:
 
 ```
 Store
@@ -81,7 +81,7 @@ Visual architecture:
 
 # 🧩 Library Components
 
-Orbit Store has three main elements.
+Orbit State has three main elements.
 
 ### Store
 
@@ -119,7 +119,7 @@ export interface UserState {
 ### Creating the Store
 
 ```ts
-import { Store } from 'orbit-store'
+import { Store } from 'orbit-state'
 
 export class UserStore extends Store<UserState> {
 
@@ -161,7 +161,7 @@ It is useful when you want to access the store **from anywhere in the applicatio
 ## Getting the store
 
 ```ts
-import { StoreRegistry } from 'orbit-store'
+import { StoreRegistry } from 'orbit-state'
 import { UserStore } from './user.store'
 
 const userStore = StoreRegistry.get(UserStore)
@@ -182,7 +182,7 @@ you will always receive **the same store instance**.
 ```ts
 import { Component } from '@angular/core'
 import { Observable } from 'rxjs'
-import { StoreRegistry } from 'orbit-store'
+import { StoreRegistry } from 'orbit-state'
 import { UserStore, UserState } from './user.store'
 
 @Component({
@@ -221,7 +221,7 @@ export class HomeComponent {
 
 ## 🟢 Method 2 — Using Dependency Injection (Angular DI)
 
-Another way to use Orbit Store is through Angular's **dependency injection system**.
+Another way to use Orbit State is through Angular's **dependency injection system**.
 
 In this case, the store behaves like an **Angular service**.
 
@@ -231,7 +231,7 @@ In this case, the store behaves like an **Angular service**.
 
 ```ts
 import { Injectable } from '@angular/core'
-import { Store } from 'orbit-store'
+import { Store } from 'orbit-state'
 
 @Injectable({
   providedIn: 'root'
@@ -286,7 +286,7 @@ export class HomeComponent {
 | StoreRegistry        | When you want to access the store outside Angular |
 | Dependency Injection | When you want to follow the Angular pattern       |
 
-Both approaches work perfectly with Orbit Store.
+Both approaches work perfectly with Orbit State.
 
 ---
 

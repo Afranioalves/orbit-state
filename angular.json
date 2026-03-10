@@ -6,9 +6,9 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "orbit-store": {
+    "orbit-state": {
       "projectType": "library",
-      "root": "projects/orbit-store",
+      "root": "projects/orbit-state",
       "sourceRoot": "projects/orbit-store/src",
       "prefix": "lib",
       "architect": {
@@ -16,10 +16,10 @@
           "builder": "@angular/build:ng-packagr",
           "configurations": {
             "production": {
-              "tsConfig": "projects/orbit-store/tsconfig.lib.prod.json"
+              "tsConfig": "projects/orbit-state/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/orbit-store/tsconfig.lib.json"
+              "tsConfig": "projects/orbit-state/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,7 +27,7 @@
         "test": {
           "builder": "@angular/build:unit-test",
           "options": {
-            "tsConfig": "projects/orbit-store/tsconfig.spec.json"
+            "tsConfig": "projects/orbit-state/tsconfig.spec.json"
           }
         }
       }
