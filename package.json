@@ -23,6 +23,10 @@
     "README.md",
     "LICENSE"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Afranioalves/orbit-state.git"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
