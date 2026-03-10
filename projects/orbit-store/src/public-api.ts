@@ -3,4 +3,4 @@
  */
 
 export * from './lib/store';
-export * from './lib/user.store';
+export * from './lib/store-registry';
