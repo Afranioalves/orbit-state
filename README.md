@@ -8,9 +8,9 @@ Simple, typed and reactive state management for Angular applications.
 
 <!-- ![npm](https://img.shields.io/npm/v/orbit-state) -->
 
-![license](https://img.shields.io/npm/l/orbit-state)
-![downloads](https://img.shields.io/npm/dm/orbit-state)
-![angular](https://img.shields.io/badge/angular-%3E%3D16-red)
+<!-- ![license](https://img.shields.io/npm/l/orbit-state)
+![downloads](https://img.shields.io/npm/dm/orbit-state) -->
+![angular](https://img.shields.io/badge/angular-%3E%3D17-greeb)
 
 </p>
 

@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Simple reactive state management for Angular",
   "author": "Afrânio Alves",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
   "keywords": [
     "angular",
     "state-management",
@@ -18,11 +15,7 @@
     "access": "public"
   },
   "license": "MIT",
-  "files": [
-    "dist",
-    "README.md",
-    "LICENSE"
-  ],
+
   "repository": {
     "type": "git",
     "url": "https://github.com/Afranioalves/orbit-state.git"
