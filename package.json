@@ -1,6 +1,8 @@
 {
-  "name": "orbit-store",
-  "version": "0.0.0",
+  "name": "orbit-state",
+  "version": "1.0.0",
+  "description": "Simple reactive state management for Angular",
+  "author": "Afrânio Alves",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +10,6 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
   "packageManager": "npm@10.9.2",
   "dependencies": {
     "@angular/common": "^21.2.0",

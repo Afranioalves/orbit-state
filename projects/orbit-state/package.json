@@ -1,6 +1,8 @@
 {
-  "name": "orbit-store",
+  "name": "orbit-state",
   "version": "0.0.1",
+  "description": "Simple reactive state management for Angular",
+  "author": "Afrânio Alves",
   "peerDependencies": {
     "@angular/common": "^21.2.0",
     "@angular/core": "^21.2.0"
